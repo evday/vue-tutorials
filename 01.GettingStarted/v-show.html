@@ -10,7 +10,7 @@
 			<h1 v-show="yes">Yes!</h1>
 			<h1 v-show="no">No!</h1>
 			<h1 v-show="age >= 25">Age: {{ age }}</h1>
-			<h1 v-show="name.indexOf('jack') >= 0">Name: {{ name }}</h1>
+			<h1 v-show="name.indexOf('jack') >= 0">Name: {{ name }}</h1>//这里的indexOf 一定要注意O是大写的，一不小心就写成小写了
 		</div>
 	</body>
 	<script src="js/vue.js"></script>
